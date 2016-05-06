@@ -28,16 +28,16 @@ function setup() {
 }
 
 describe('Organisation List component', () => {
-  it('should display a bootstrap table', () => {
-    const { component } = setup()
-    expect(component.is('table')).toBe(true)
-    expect(component.hasClass('table table-striped table-bordered table-hover')).toBe(true)
-  });
-  it('should display table headers', () => {
-    const { thead } = setup()
-    expect(thead.find('th').at(0).text()).toMatch(/^Name/)
-    expect(thead.find('th').at(1).text()).toMatch(/^Id/)
-  });
+  // it('should display a bootstrap table', () => {
+  //   const { component } = setup()
+  //   expect(component.is('table')).toBe(true)
+  //   expect(component.hasClass('table table-striped table-bordered table-hover')).toBe(true)
+  // });
+  // it('should display table headers', () => {
+  //   const { thead } = setup()
+  //   expect(thead.find('th').at(0).text()).toMatch(/^Name/)
+  //   expect(thead.find('th').at(1).text()).toMatch(/^Id/)
+  // });
   /**
    * @todo
    */
